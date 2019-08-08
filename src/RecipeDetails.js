@@ -10,8 +10,7 @@ const RecipeDetails = (props) => {
     return (
         <div className = "container">
         <h3 className = "Display-3 dishName" style = {{textAlign:'center', fontSize: '60px', fontStyle: 'italic'}}>
-            {/* {recipe.recipe.label} */}
-            Chicken Tempura Steak
+            {recipe.recipe.label}
         </h3>
         <hr/>
         <div className = "row">
